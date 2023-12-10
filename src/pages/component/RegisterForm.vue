@@ -1,5 +1,3 @@
-<!-- RegisterForm.vue -->
-
 <template>
   	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -79,22 +77,16 @@ export default {
   },
   methods: {
     submitForm() {
-      // Simulate registration logic (replace with your actual registration logic)
       console.log('Registration data:', this.formData);
-
-      // Reset the form data after submission
       this.formData = {
         username: '',
         email: '',
         password: '',
       };
-
-      // You can perform additional actions after registration, such as redirecting the user
     },
   },
 };
 </script>
 
 <style scoped>
-/* Add your custom styles here if needed */
 </style>

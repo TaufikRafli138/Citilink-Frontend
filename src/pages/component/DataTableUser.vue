@@ -40,13 +40,9 @@ export default {
     };
   },
   mounted() {
-    // Fetch data when the component is mounted
-    axios.get('http://127.0.0.1:8000/api/user/DataUser') // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
+    axios.get('http://127.0.0.1:8000/api/user/DataUser') 
       .then(response => {
-        // Display response data in the console
         console.log('Response Data:', response.data);
-
-        // Set the data property to display in the template
         this.data = response.data;
       })
       .catch(error => {

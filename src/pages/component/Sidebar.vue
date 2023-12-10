@@ -3,12 +3,10 @@
     <button @click="toggleSidebar" class="btn btn-primary">Toggle Sidebar</button>
 
     <div :class="['sidebar', { 'collapsed': isCollapsed }]">
-      <!-- Sidebar content goes here -->
       <p>Sidebar Content</p>
     </div>
 
     <div class="content">
-      <!-- Main content goes here -->
       <p>Main Content</p>
     </div>
   </div>

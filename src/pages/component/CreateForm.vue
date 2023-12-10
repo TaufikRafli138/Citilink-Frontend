@@ -35,9 +35,7 @@ export default {
   },
   methods: {
     submitForm() {
-      // You can handle form submission logic here, e.g., send data to the server
       console.log('Form submitted:', this.formData);
-      // Reset the form data after submission
       this.formData = {
         name: '',
         email: '',
@@ -49,5 +47,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add your custom styles here if needed */
 </style>

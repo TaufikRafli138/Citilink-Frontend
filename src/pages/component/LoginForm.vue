@@ -1,5 +1,3 @@
-<!-- LoginForm.vue -->
-
 <template>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -58,15 +56,11 @@ export default {
   },
   methods: {
     submitForm() {
-      // Simulate login logic (replace with actual authentication logic)
       if (this.formData.username === 'example' && this.formData.password === 'password') {
         alert('Login successful!');
-        // You can redirect the user or perform other actions after successful login
       } else {
         alert('Invalid username or password. Please try again.');
       }
-
-      // Reset the form data after submission
       this.formData = {
         username: '',
         password: '',
@@ -75,7 +69,5 @@ export default {
   },
 };
 </script>
-
 <style scoped>
-/* Add your custom styles here if needed */
 </style>
